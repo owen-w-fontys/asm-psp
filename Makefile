@@ -16,7 +16,7 @@ SRCS		= $(addprefix $(DIR_SRC), $(SRC))
 
 OBJ			= 	$(SRCS:.asm=.o)
 
-NAME		=	libasm.so
+NAME		=	psp_asmlib.so
 
 CFLAGS		=	-fPIC -shared
 
